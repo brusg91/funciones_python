@@ -10,6 +10,11 @@
 # Ejercicios con funciones
 
 # --------------------------------
+
+def ordenar(lista_numeros):
+    lista_ordenada = sorted(lista_numeros)
+    return lista_ordenada
+
 # Aquí dentro definir la función ordenar
 # def ordenar(lista):
 
@@ -22,6 +27,9 @@ if __name__ == '__main__':
     numeros = [2, 4, 10, 8, 12, 6]
 
     # Alumno: Crear la función "ordenar"
+
+    lista_ordenada = ordenar(numeros)
+    print('Lista ordenada de menor a mayor',lista_ordenada)
 
     # Generar una una nueva funcion que se llame "ordenar",
     # que utilizaremos para odernar la lista de numeros.
